@@ -26,7 +26,7 @@ const greeting = {
     "Data & Software Specialist | Backend Developer passionate about building smart, data-driven solutions using analytics, automation, and clean, scalable code."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1jDr7HoVDjj9cGerG2ar39v4j4mYyUSQO/edit?usp=share_link&ouid=118034882682353202562&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
