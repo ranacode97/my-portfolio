@@ -243,9 +243,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Quantium Customer Analytics Internship",
+      title: "Quantium Customer Analytics Virtual Experience Program",
       subtitle:
-        "Completed virtual internship focused on customer segmentation, sales uplift analysis, and actionable business insights using Python and data visualization.",
+        "Completed virtual experience program focused on customer segmentation, sales uplift analysis, and actionable business insights using Python and data visualization.",
       image: require("./assets/images/quantium.png"),
       imageAlt: "Quantium Logo",
       footerLink: [
