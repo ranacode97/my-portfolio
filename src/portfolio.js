@@ -23,11 +23,12 @@ const greeting = {
   username: "Shobhit Rana",
   title: "Hi all, I'm Shobhit",
   subTitle: emoji(
-    "Data & Software Specialist | Backend Developer passionate about building smart, data-driven solutions using analytics, automation, and clean, scalable code."
+    "Data & Software Engineer | Backend Developer passionate about building smart, data-driven solutions using analytics, automation, and clean, scalable code."
   ),
-  resumeLink:
-    "https://docs.google.com/document/d/1jDr7HoVDjj9cGerG2ar39v4j4mYyUSQO/edit?usp=share_link&ouid=118034882682353202562&rtpof=true&sd=true", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  /*resumeLink:
+    "https://docs.google.com/document/d/1jDr7HoVDjj9cGerG2ar39v4j4mYyUSQO/edit?usp=share_link&ouid=118034882682353202562&rtpof=true&sd=true", // Set to empty to hide the button 
+  */
+  displayGreeting: false // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -45,7 +46,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Data cleaning, validation, and transformation using Python & SQL"),
     emoji("⚡ Build dashboards and reports using Power BI, Tableau & Excel"),
@@ -111,7 +112,7 @@ const techStack = {
   experience: [
     {
       Stack: "Data Analytics", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -119,7 +120,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -185,6 +186,17 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Some projects where I transformed complex datasets into clear insights and predictive solutions",
   projects: [
+    {
+      image: require("./assets/images/audit.png"),
+      projectName: "Audit and Compliance Management Application",
+      projectDesc: "A cloud-native backend application built with FastAPI and AWS services to manage audit documentation and compliance workflows.",
+      footerLink: [
+        {
+          name: "View Project on GitHub",
+          url: "https://github.com/ranacode97/Audit-and-Compliance-Management-Application"
+        }
+      ]
+    },
     {
       image: require("./assets/images/insuranceproj.png"),
       projectName: "Insurance Customer Analytics & Prediction",
@@ -273,13 +285,13 @@ const achievementSection = {
 };
 
 // Resume Section
-const resumeSection = {
+/*const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
-};
+};*/
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -305,5 +317,5 @@ export {
   achievementSection,
   contactInfo,
   isHireable,
-  resumeSection
+  //resumeSection
 };
