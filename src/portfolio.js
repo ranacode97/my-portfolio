@@ -187,13 +187,13 @@ const bigProjects = {
   subtitle: "Some projects where I transformed complex datasets into clear insights and predictive solutions",
   projects: [
     {
-      image: require("./assets/images/audit.png"),
-      projectName: "Audit and Compliance Management Application",
-      projectDesc: "A cloud-native backend application built with FastAPI and AWS services to manage audit documentation and compliance workflows.",
+      image: require("./assets/images/clouddeploy.png"),
+      projectName: "Cloud Deploy",
+      projectDesc: "A self-hostable deployment platform. Deploy any Dockerised app with a single command — your own open-source Heroku.",
       footerLink: [
         {
           name: "View Project on GitHub",
-          url: "https://github.com/ranacode97/Audit-and-Compliance-Management-Application"
+          url: "https://github.com/ranacode97/clouddeploy"
         }
       ]
     },
@@ -254,6 +254,17 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "Cisco AI Technical Practitioner (AITECH)",
+      subtitle:
+        "Demonstrates intermediate AI skills in effectively designing technical solutions, automating tasks, and leading technical teams using AI tools and methodologies.",
+      image: require("./assets/images/ciscoai.png"),
+      imageAlt: "Cisco AI certification",
+      footerLink: [
+        { name: "Certification", 
+          url: "https://www.credly.com/badges/4410b753-cf8f-4356-8ef5-5795f7218e0a/public_url" }
+      ]
+    },
     {
       title: "Quantium Customer Analytics Virtual Experience Program",
       subtitle:
