@@ -184,8 +184,19 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Some projects where I transformed complex datasets into clear insights and predictive solutions",
+  subtitle: "Full-stack projects spanning cloud infrastructure, backend systems, and data analytics",
   projects: [
+    {
+      image: require("./assets/images/dashboard.png"),
+      projectName: "Log Vault",
+      projectDesc: "A real-time log aggregation and classification platform built with Java Spring Boot and React.",
+      footerLink: [
+        {
+          name: "View Project on GitHub",
+          url: "https://github.com/ranacode97/logvault"
+        }
+      ]
+    },
     {
       image: require("./assets/images/clouddeploy.png"),
       projectName: "Cloud Deploy",
