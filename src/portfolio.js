@@ -60,11 +60,12 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
     { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
     { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
     { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel" },
     { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-bar" },
     { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-line" },
-    { skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf" },
     { skillName: "Flask", fontAwesomeClassname: "fas fa-code" },
     { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" },
     { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
