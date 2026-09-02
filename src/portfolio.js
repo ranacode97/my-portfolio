@@ -135,7 +135,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Intern",
+      role: "Full-Stack Engineer",
+      company: "Young Logix",
+      companylogo: require("./assets/images/ylogix.jpeg"),
+      date: "Aug 2026 – Present",
+      desc: "Building a custom Odoo 19 CMMS module",
+      descBullets: [
+      "Built a custom Odoo 19 CMMS module with a fault-to-repair workflow and an OWL/SCSS web UI, covered by unit tests, on the YLX Helm platform (Python, React, PostgreSQL, Docker; AI-assisted in Cursor)."
+      ]
+    },
+    {
+      role: "Software Engineering Intern",
       company: "Cognitive Robotics Lab",
       companylogo: require("./assets/images/wsu.png"),
       date: "Mar 2025 – Jun 2025",
@@ -189,6 +199,17 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Full-stack projects spanning cloud infrastructure, backend systems, and data analytics",
   projects: [
+    {
+      image: require("./assets/images/dashboard.png"),
+      projectName: "AI Document Assistant",
+      projectDesc: "Document Q&A with cited answers (RAG) that are grounded in your documents, every claim links to the exact passage and page it came from.",
+      footerLink: [
+        {
+          name: "View Project on GitHub",
+          url: "https://github.com/ranacode97/AI-Document-Assistant"
+        }
+      ]
+    },
     {
       image: require("./assets/images/dashboard.png"),
       projectName: "Log Vault",
