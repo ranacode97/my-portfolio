@@ -69,7 +69,9 @@ https://fontawesome.com/icons?d=gallery */
     { skillName: "Flask", fontAwesomeClassname: "fas fa-code" },
     { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" },
     { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" }
+    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    { skillName: "TypeScript", fontAwesomeClassname: "fas fa-code" }
   ],
   display: true // Set false to hide this section, defaults to true
 };
